@@ -254,7 +254,9 @@ System.config({
       "npm:aurelia-templating-router@1.0.0-beta.1.2.0/route-loader.js",
       "npm:aurelia-templating-router@1.0.0-beta.1.2.0/router-view.js",
       "npm:aurelia-templating@1.0.0-beta.1.2.1.js",
-      "npm:aurelia-templating@1.0.0-beta.1.2.1/aurelia-templating.js"
+      "npm:aurelia-templating@1.0.0-beta.1.2.1/aurelia-templating.js",
+      "npm:jquery@2.2.3.js",
+      "npm:jquery@2.2.3/dist/jquery.js"
     ]
   },
   depCache: {

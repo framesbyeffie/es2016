@@ -1,9 +1,10 @@
 //import {computedFrom} from 'aurelia-framework';
 
 export class Welcome {
-  heading = 'Welcome to the Aurelia Navigation App!';
-  firstName = 'John';
-  lastName = 'Doe';
+  heading = 'Welcome to FramesByEffie!';
+  subHeading = 'Please enter your name and email to contact effie.'
+  firstName = 'name';
+  lastName = 'email';
   previousValue = this.fullName;
 
   //Getters can't be directly observed, so they must be dirty checked.
@@ -17,7 +18,7 @@ export class Welcome {
 
   submit() {
     this.previousValue = this.fullName;
-    alert(`Welcome, ${this.fullName}!`);
+    alert(`Thanks ${this.firstName}, Effie will contact you within 24 hours!`);
   }
 
   canDeactivate() {
